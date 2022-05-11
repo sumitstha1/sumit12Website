@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&family=Ubuntu:wght@300&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+.logo{
+	width: 20%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.logo1 img{
+	width: 40%;
+	border: 3px solid white;
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+}
+
+.logo1 img:hover{
+	width: 40%;
+	border: 3px solid #CCFF00;
+	border-radius: 50px;
+}
+
+.navbar{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: sticky;
+	top: 0;
+}
+
+.nav-list{
+	width: 50%;
+	display: flex;
+	align-items: center;
+
+}
+
+.nav-list li{
+	list-style: none;
+	padding: 26px 30px;
+}
+
+.nav-list li a{
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+}
+
+.nav-list li a:hover{
+	text-decoration: none;
+	color: #CCFF00;
+}
+
+.rightNav{
+	text-align: right;
+	width: 50%;
+	text-align: right;
+	padding: 20px;
+}
+
+#search{
+	border: 2px solid grey;
+	border-radius: 10px;
+	padding: 5px;
+	font-size: 18px;
+}
+
+.background{
+	background: rgba(0, 0, 0, 0.7) url('../img/img.jpg');
+	background-blend-mode: darken;
+}
+
+.firstSection{
+	height: 50vh;
+}
+
+.box-main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-family: sans-serif;
+	max-width: 50%;
+	margin: auto;
+	height: 100%;
+}
+
+.firstHalf{
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.secondHalf{
+	width: 30%;
+}
+
+.secondHalf img{
+	width: 100%;
+	border: 2px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+
+.big-txt{
+	font-size: 35px
+}
+
+.small-txt{
+	font-size: 15px;
+}
+
+.btn2{
+	padding: 4px 16px;
+	margin-right: 10px;
+}
+
+.btn1{
+	padding: 6px 18px;
+	background: none;
+	border-radius: 12px;
+	cursor: pointer;
+	color: white;
+	border: 2px solid white;
+}
+
+.btn-sm{
+	padding: 4px 10px;
+}
+
+.click{
+	padding: 6px 18px;
+	background: none;
+	border-radius: 12px;
+	cursor: pointer;
+	color: white;
+	border: 2px solid white;
+	margin-top: 10px;
+	margin-right: 20px;
+	
+}
+
+.button{
+	display: flex;
+}
+
+.button a{
+	text-decoration: none;
+}
+
+.section{
+	height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.section-left{
+	flex-direction: row-reverse;
+}
+
+.paras{
+	padding: 0px 65px;
+}
+
+.det{
+	justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 5px;
+    width: 30%;
+    margin-top: 25px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.det:hover{
+	justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 5px;
+    width: 30%;
+    margin-top: 25px;
+    border: 2px solid #CCFF00;
+    border-radius: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.h3{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 25px;
+}
+
+.btnsbmt{
+	padding: 6px 18px;
+	background: none;
+	border-radius: 12px;
+	cursor: pointer;
+	color: grey;
+	display: flex;
+	border: 2px solid black;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	margin-top: 30px;
+	padding: 6px 85px;
+}
+
+.btnsbmt:hover{
+	padding: 6px 18px;
+	background: none;
+	border-radius: 12px;
+	cursor: pointer;
+	color: #66FF66;
+	display: flex;
+	border: 2px solid #CCFF00;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	margin-top: 30px;
+	padding: 6px 85px;
+}
+
+.ftc{
+	padding: 25px;
+}
+
+.txt-ft{
+	font-family: 'Ubuntu', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 13px;
+}
+
+.burger{
+	display: none;
+	position: absolute;
+	cursor: pointer;
+	right: 5%;
+	top: 20px;
+}
+
+.line{
+	width: 33px;
+	background-color: white;
+	height: 4px;
+	margin: 5px 3px;
+	border-radius: 3px;
+}
+
+@media only screen and (max-width: 1140px){
+	.nav-list{
+		flex-direction: column;
+	}
+
+	.navbar{
+		flex-direction: column;
+		height: 400px;
+		transition: all 0.9s ease-out;
+	}
+
+	.rightNav{
+		text-align: center;
+	}
+
+	#search{
+		width: 100%;
+	}
+
+	.burger{
+		display: block;
+	}
+
+	.h-nav-resp{
+		height: 72px;
+	}
+
+	.v-class-resp{
+		opacity: 0;
+	}
+}
