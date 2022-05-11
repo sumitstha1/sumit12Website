@@ -272,6 +272,10 @@ html{
 	border-radius: 3px;
 }
 
+.sum{
+	text-decoration: none;
+	color: white;
+	
 @media only screen and (max-width: 1140px){
 	.nav-list{
 		flex-direction: column;
