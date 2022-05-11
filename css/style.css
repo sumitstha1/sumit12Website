@@ -275,6 +275,12 @@ html{
 .sum{
 	text-decoration: none;
 	color: white;
+}
+
+.sum:hover{
+	text-decoration: none;
+	color: #CCFF00;
+}
 	
 @media only screen and (max-width: 1140px){
 	.nav-list{
